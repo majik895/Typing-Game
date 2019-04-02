@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Typing Tester</title>
+		<link rel="stylesheet" href="source/css/style.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header class="hd">
+			<h1>Word Beater</h1>
+			<pre>Test Your Skills</pre>
+		</header>
+		  <div id="hero" class="hero-content">
+			<!-- Word & Input -->
+			<div class="hero-controller">
+			  <div class="main-text">
+				<div class="lavel">
+					<h3>
+						<span id="easy">Easy</span>
+						<span id="Medium">Medium</span>
+						<span id="Hard">Hard</span>
+					</h3>
+				</div>
+				<br><br>
+				<p class="lead">Type The Given Word Within
+				  <span class="color-green" id="seconds">5</span> Seconds:</p>
+				<h2 class="text-game" id="current-word">fuck</h2>
+				<input type="text" class="input-writer" placeholder="Start typing..." id="word-input" autofocus> <br>
+				<h4 class="show-mg" id="message"></h4>
+				<h4 id="textS">Press F5 Or Refresh this page</h4>
+
+				<!-- Time & Score Columns -->
+				<section class="time score">
+				  <div class="time-count">
+					<h3>Time Left:
+					  <span id="time"></span>
+					</h3>
+				  </div>
+				  <div class="score-make">
+					<h3>Score:
+					  <span id="score">0</span>
+					</h3>
+				  </div>
+				</section>
+
+				<!-- Instructions -->
+				<section class="instructions-game">
+				  <div class="widthCtrl">
+					<div class="ins">
+					  <h5>Instructions</h5>
+					  <p>Type each word in the given amount of seconds to score. To play again, just type the current word. Your score
+						will reset</p>
+					</div>
+				  </div>
+				</section>
+			  </div>
+			</div>
+		  </div>
+		<script src="source/js/script.js"></script>
+	</body>
+</html>
+
+   

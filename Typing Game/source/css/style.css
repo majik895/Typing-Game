@@ -1,0 +1,114 @@
+/* CSS VARIABLE */
+
+:root {
+	--Alleria: rgb(245, 18, 18);
+	--dark:#333;
+	--light:white;
+	--shadow: 0 1px 5px rgba(107,120,104,0.8);
+}
+
+/* Normal Code */
+
+* {
+	margin:0;
+	padding:0;
+}
+
+html {
+	box-sizing:border-box;
+}
+
+body {
+	font-family:Arial, sans-serif;
+	background:lightgrey;
+	color:var(--dark);
+	text-align:center;
+	line-height:1.6;
+}
+
+.hd {
+	display:grid;
+	background:var(--dark);
+	color:#fff; padding:0.8rem;
+	text-align:center;
+}
+
+.hero-content {
+	padding-top:10%;
+}
+
+.lead {
+	background:var(--light);
+	width:40%;
+	margin:5px auto;
+	font-size:25px;
+	padding:0.6rem;
+	border-radius:5px;
+	box-shadow:var(--shadow);
+}
+
+
+.color-green {
+	color:var(--Alleria);
+}
+
+.text-game {
+	font-size:4rem;
+}
+
+.input-writer {
+	width:50%;
+	height:40px;
+	color:steelblue;
+	font-size:18px;
+	text-align:center;
+}
+
+.time, .show-mg {
+	margin:20px;
+}
+
+.instructions-game {
+	background:var(--dark);
+	color:var(--light);
+	padding:0.5rem;
+	width:40%;
+	margin:5px auto;
+	border-radius:5px;
+}
+
+.lavel span{
+	background:var(--light);
+	margin:5px;
+	padding:10px;
+	cursor:pointer;
+	box-shadow:var(--shadow);
+}
+
+.ins h5 {
+	font-size:25px;
+	line-height:2;
+	border-bottom:1px solid lime;
+	margin-bottom:5px;
+}
+
+#textS {
+	display:none;
+}
+
+#musicOff {
+	display:none;
+}
+
+#time {
+	animation:turncolor 20s;
+}
+
+@keyframes turncolor {
+    from {color: #333;}
+    to {color: red;}
+}
+
+
+
+
